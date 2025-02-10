@@ -22,7 +22,7 @@ function Home() {
 }
 function About() {
   const handleClick = () => {
-    alert('ทายดูซิ');
+    alert('ชื่อ ณัฐกฤตา อ่านว่า นัด-กริ-ตา');
   };
   return (
     <div>
