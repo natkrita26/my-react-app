@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css'
 import Header from './Header';
@@ -93,8 +90,6 @@ function App() {
             <Route path="/greeting" element={<Greeting />} />
             <Route path="/store" element={<Store />} />
           </Routes>
-          <Header title="React Workshop" />
-          <p className="mb-4">เรียนรู้พื้นฐานของ React ผ่านการปฏิบัติจริง</p>
           <Posts />
         </div>
         <div className="container mx-auto p-6">
